@@ -1,14 +1,19 @@
 {
     "manifest_version": 2,
-
     "name": "Is It Dark?",
-    "description": "[For Dafang Hacks Camera Page] Detect if it's dark using basic image analysis and if so turn on night vision mode (IR Led on and IR Cut off)",
+    "description": "[For Dafang Hacks Camera Page] Detect if it's dark using image analysis and if so turn on night mode (IR Led on and IR Cut off).",
     "version": "1",
-
     "permissions": [
         "<all_urls>",
         "tabs"
     ],
-
-    "background": { "scripts": ["background.js"] }
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "icons": {
+      "16":  "images/isitdark_16.png",
+      "32":  "images/isitdark_32.png",
+      "48":  "images/isitdark_48.png",
+      "128": "images/isitdark_128.png"
+    }
 }
